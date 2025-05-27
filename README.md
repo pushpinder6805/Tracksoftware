@@ -1,2 +1,2 @@
-# Tracksoftware
-Theme for connect.trackssoftware.com
+# trackssoftware.com-Discourse
+A theme for connect.trackssoftware.com
