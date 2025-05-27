@@ -30390,3 +30390,140 @@
   }
   
   
+  // Theme: custom css code
+// Target: desktop scss
+// Last Edited: 2024-08-04 08:31:02 UTC
+
+
+
+
+
+.banner-resource {
+    width: 77.5em;
+    background: #fff;
+    box-shadow: 0 24px 40px rgba(0, 0, 0, .07), 0 10.8529px 24.1177px rgba(0, 0, 0, .0456112), 0 4.50776px 10.0172px rgba(0, 0, 0, .035), 0 1.63037px 3.62304px rgba(0, 0, 0, .0243888);
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+section.category-heading {
+    display: none;
+}
+
+#topic-footer-buttons {
+    width: 54em;
+    background: #fff !important;
+    padding: 3em 3em 4em 3em;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2509803922);
+}
+
+
+
+#topic-footer-buttons {
+    width: 117%;
+    max-width: 1071px;
+}
+
+.more-topics__container{
+    width: 117%;
+    max-width: 1071px;
+}
+
+//module category //
+section.category-heading {
+  background: #ffffff;
+  box-shadow: 0 24px 40px rgba(0,0,0,.07),0 10.8529px 24.1177px rgba(0,0,0,.0456112),0 4.50776px 10.0172px rgba(0,0,0,.035),0 1.63037px 3.62304px rgba(0,0,0,.0243888);
+  margin-bottom: 3em;
+
+  .nav-category-module {
+    height: 100%;
+    display: flex;
+    border-radius: 3px;
+
+    .category-logo.aspect-image {
+      float: unset;
+      flex: 0.25 1 0;
+      text-align: center;
+      margin: 0;
+      max-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .wrap-overview {
+      flex: 1 1 0;
+      margin-left: 2em;
+      padding-bottom: 1em;
+
+      .category-content {
+        display: flex;
+        justify-content: flex-start;
+
+        .svg {
+          width: 15px;
+          height: 11px;
+        }
+
+        .content {
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+
+  .category-title {
+    padding-top: 15px;
+    font-family: "Jubilat";
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 50px;
+    color: #000000;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+
+    .column:first-child {
+      padding-right: 3em;
+      flex: 0 0 30em;
+    }
+
+    .column:last-child {
+      padding-right: 3em;
+    }
+
+    .content {
+      font-family: 'Proxima Nova Regular', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    .text {
+      font-family: 'Proxima Nova Regular', sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 21px;
+      padding-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .row {
+      flex-direction: column;
+    }
+
+    .column:first-child {
+      padding-right: 0;
+      flex: 0 0 30em;
+    }
+
+    .category-title {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+}
